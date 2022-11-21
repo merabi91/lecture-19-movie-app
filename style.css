@@ -41,16 +41,15 @@ main{
     padding: 15px;
     font-weight: 600;
 }
-
-form.addEventListener('submit', (e) => {
-    e.preventDefault()
-    const searchTerm = search.value
-    if(searchTerm && searchTerm !== ''){
-        getMovies(SEARCH_API + searchTerm)
-            search.value= ''
-    }
-    else{
-        window.location.reload()
-    }
-
-  })
+.green{
+    background-color: green;
+    border-radius: 2px;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 2px;
+}
+.red{
+    background-color: red;
+    border-radius: 2px;
+}
