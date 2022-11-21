@@ -39,17 +39,16 @@ main{
 .movie-info{
     color: white;
     padding: 15px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .green{
-    background-color: green;
-    border-radius: 2px;
+    color: green;
+ 
 }
 .yellow{
-    background-color: yellow;
-    border-radius: 2px;
+    color: yellow;
+   
 }
 .red{
-    background-color: red;
-    border-radius: 2px;
+    color: red;
 }
